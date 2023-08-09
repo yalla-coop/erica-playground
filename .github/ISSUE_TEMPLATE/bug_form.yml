@@ -42,6 +42,8 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
+      validations:
+        required: true
     - type: dropdown
     id: issue_type
     attributes:
@@ -54,6 +56,8 @@ body:
         - Design (e.g. Font, Images, User Flow)
         - Email
         - Question
+      validations:
+        required: true
   - type: dropdown
     id: priority
     attributes:
@@ -63,6 +67,8 @@ body:
         - High
         - Medium
         - Low
+      validations:
+        required: true
   - type: textarea
     id: logs
     attributes:
