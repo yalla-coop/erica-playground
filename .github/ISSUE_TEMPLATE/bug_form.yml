@@ -30,8 +30,6 @@ body:
         - iPad
         - Windows Laptop
         - Android Phone
-    validations:
-      required: true
   - type: dropdown
     id: browser
     attributes:
@@ -42,8 +40,6 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
-      validations:
-        required: true
   - type: dropdown
     id: issue_type
     attributes:
@@ -56,8 +52,6 @@ body:
         - Design (e.g. Font, Images, User Flow)
         - Email
         - Question
-      validations:
-        required: true
   - type: dropdown
     id: priority
     attributes:
