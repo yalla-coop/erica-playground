@@ -90,8 +90,8 @@ body:
     id: loom-video
     attributes:
       label: Add a video link
-      description: "If possible it would be even more helpful if you could include a screen recording of the issue. We strongly recommend using Loom as it gives you a link you can then share below"
-      placeholder: "e.g. https://www.loom.com/signup"
+      description: "If possible it would be even more helpful if you could include a screen recording of the issue. We strongly recommend using Loom as it gives you a link you can then share below. You can create your own Loom account here: https://www.loom.com/signup"
+      placeholder: "e.g. https://www.loom.com/..."
     validations:
         required: false
 
