@@ -76,16 +76,20 @@ body:
     attributes:
       label: Page URL
       description: Please provide the relevant URL
-  - type: file
+  - type: input
     id: screenshot
     attribute:
       label: Add a screenshot
-      description: Please add a screenshot of the issue to make it easier for us to troubleshoot it
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      description: "Please upload a screenshot of your issue to this folder https://tinyurl.com/587k8z57 and then provide the file URL in the input field below"
+      placeholder: "e.g. https://drive.google.com/drive/..."
+      validations:
+        required: false
+  - type: input
+    id: loom-video
+    attribute:
+      label: Add a video link
+      description: "If possible it would be even more helpful if you could include a screen recording of the issue. We strongly recommend using Loom as it gives you a link you can then share below"
+      placeholder: "e.g. https://www.loom.com/signup"
+      validations:
+        required: false
+
