@@ -76,7 +76,7 @@ body:
     attributes:
       label: Page URL
       description: Please provide the relevant URL
-      validations:
+    validations:
         required: false
   - type: input
     id: screenshot
