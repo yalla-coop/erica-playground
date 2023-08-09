@@ -19,6 +19,8 @@ body:
         - iPad
         - Windows Laptop
         - Android Phone
+    validations:
+      required: true
   - type: dropdown
     id: browser
     attributes:
