@@ -1,6 +1,5 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
+name: Client Quality Assurance - Report an issue
+description: File a bug report or suggest a new idea
 labels: ["client QA"]
 assignees:
   - egasparini
