@@ -61,8 +61,6 @@ body:
         - High
         - Medium
         - Low
-      validations:
-        required: true
   - type: textarea
     id: logs
     attributes:
