@@ -44,7 +44,6 @@ body:
         - Microsoft Edge
       validations:
         required: true
-    
   - type: dropdown
     id: issue_type
     attributes:
