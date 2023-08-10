@@ -31,6 +31,8 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
+    validations:
+      required: true
   - type: dropdown
     id: issue_type
     attributes:
@@ -42,6 +44,8 @@ body:
         - Copy
         - Email
         - Question
+    validations:
+      required: true
   - type: dropdown
     id: priority
     attributes:
@@ -51,6 +55,8 @@ body:
         - High
         - Medium
         - Low
+    validations:
+      required: true
   - type: textarea
     id: description
     attributes:
