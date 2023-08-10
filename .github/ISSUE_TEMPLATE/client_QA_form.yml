@@ -69,7 +69,7 @@ body:
     id: description
     attributes:
       label: "Please describe your issue & include screenshots:"
-      description: "What were you trying to do, what happened and what did you expect to happen? In case of a new idea or a question, what's on your mind? Make sure you include a screenshot or loom video to make it easier for us to troubleshoot."
+      description: "What were you trying to do, what happened and what did you expect to happen? Make sure you include a screenshot or loom video to make it easier for us to troubleshoot. In case of a new idea or a question, what's on your mind? "
     validations:
       required: true
   - type: input
