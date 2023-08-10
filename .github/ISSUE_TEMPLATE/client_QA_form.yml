@@ -1,4 +1,4 @@
-name: 🧑‍💻 Client Quality Assurance - Report an issue
+name: "🧑‍💻 Client Quality Assurance - Report an issue"
 description: File a bug report or suggest a new idea
 labels: ["client QA"]
 assignees:
@@ -40,7 +40,6 @@ body:
         - Backlog / New idea
         - Bug 
         - Copy
-        - Design (e.g. Font, Images, User Flow)
         - Email
         - Question
   - type: dropdown
@@ -52,19 +51,6 @@ body:
         - High
         - Medium
         - Low
-  - type: dropdown
-    id: user_type
-    attributes:
-      label: User Type
-      multiple: false
-      options:
-        - Logged in Admin
-        - Logged in Processor
-        - Logged in Practitioner
-        - Logged in Participant
-        - Not logged in
-        - Rater
-        - All users
   - type: textarea
     id: description
     attributes:
@@ -79,5 +65,4 @@ body:
       label: Page URL
       description: Please provide the relevant URL
     validations:
-        required: false
-
+      required: false
