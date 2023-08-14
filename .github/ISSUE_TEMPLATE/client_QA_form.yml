@@ -20,7 +20,7 @@ body:
         - Windows Laptop
         - Android Phone
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: browser
     attributes:
@@ -32,7 +32,7 @@ body:
         - Safari
         - Microsoft Edge
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: issue_type
     attributes:
@@ -45,7 +45,7 @@ body:
         - Email
         - Question
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: priority
     attributes:
